@@ -7,10 +7,10 @@ $(document).ready(function() {
               e.preventDefault();
               sound.start();
             });
-                    $('#stop').click(function(e) {
-                      e.preventDefault();
-                      sound.stop();
-                    });
+    $('#stop').click(function(e) {
+              e.preventDefault();
+              sound.stop();
+            });
 
  });
 });
