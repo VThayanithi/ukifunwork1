@@ -1,6 +1,6 @@
 SC.initialize({
   client_id: '340f063c670272fac27cfa67bffcafc4'
-
+});
 $(document).ready(function() {
   SC.stream('/tracks/314889863',function(sound){
     $('#start').click(function(e) {
